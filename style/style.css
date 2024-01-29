@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.body {
+    background-color: white;
+}
+
+.gg-search {
+    margin-left: 8vh; 
+}
+
+.apresentacao{
+    font-family: 'EuroseWide Heavy', sans-serif;
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    margin-right: 8vh;
+}
+
+.gg-profile{
+    margin-right: 2vh;
+}
+
+
+.header {
+    padding-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.section_products{
+    font-family: 'EuroseWide Heavy', sans-serif;
+    color: gray;
+    margin-left:20vh;
+    margin-top: 10vh;
+}
+ 
+.discos_cds {
+    padding-top: 10vh;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10ch; 
+    column-gap: 2vh;
+}
+
+.kida, .okcpt {
+    margin-right: 55%;
+}
+
+.iw, .tkol{
+    margin-left: 55%;
+}
+
+.albums {
+    text-align: center;
+}
+
+.albums img {
+    max-width: 100%;
+    width: 35vh;
+}
+
+.albums p {
+    font-size: 16px;
+    color: #555; 
+    margin: 5px 0; 
+    font-family: 'Arial', sans-serif;
+}
+
+.name_iw, .price_iw, .name_tkol, .price_tkol{
+    padding-left:55vh;
+}
+
+.name_okcpt, .price_okcpt, .name_kida, .price_kida{
+    padding-right:55vh;
+}
+
+.footer{
+    color: #555; 
+    font-family: 'Arial', sans-serif;
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
